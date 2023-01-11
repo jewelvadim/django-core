@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = getenv('DJANGO_SECRET', 'secret')
-DEBUG = getenv('DJANGO_DEBUG', 'True') == 'True'
+DEBUG = getenv('DJANGO_DEBUG', 'true') == 'true'
 ALLOWED_HOSTS = ['*']
 ROOT_URLCONF = 'project.urls'
 WSGI_APPLICATION = 'project.wsgi.application'
