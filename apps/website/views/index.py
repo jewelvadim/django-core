@@ -10,7 +10,6 @@ from apps.website.models import Website
 class IndexTemplateView(TemplateView):
     template_name = 'index.html'
 
-    @query_debugger
     def get_context_data(self, **kwargs: Unpack) -> dict[str, Any]:
         print(kwargs, type(kwargs))
 
