@@ -14,7 +14,9 @@ djangorestframework = '3.14.0'
 drf-yasg2 = '1.19.4'
 gunicorn = '20.1.0'
 Pillow = '9.4.0'
+pre-commit = '2.21.0'
 psycopg2-binary = '2.9.5'
+ruff = '0.0.219'
 sorl-thumbnail = '12.9.0'
 
 [dev-packages]
