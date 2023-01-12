@@ -13,7 +13,9 @@ PROJECT_APPS = [
 
 EXTRA_APPS = [
     'ckeditor',
+    'ckeditor_uploader',
     'django_cleanup',
+    'django_filters',
     'drf_yasg2',
     'rest_framework',
     'solo',
