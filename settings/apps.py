@@ -14,6 +14,8 @@ PROJECT_APPS = [
 EXTRA_APPS = [
     'ckeditor',
     'django_cleanup',
+    'drf_yasg2',
+    'rest_framework',
     'solo',
     'sorl.thumbnail',
 ]
