@@ -8,6 +8,7 @@ INSTALLED_APPS = [
 ]
 
 PROJECT_APPS = [
+    'apps.core.apps.CoreConfig',
 ]
 
 EXTRA_APPS = [
