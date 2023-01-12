@@ -3,7 +3,6 @@ from typing import Any, Unpack
 from django.conf import settings
 from django.views.generic import TemplateView
 
-from apps.core.decorators import query_debugger
 from apps.website.models import Website
 
 
