@@ -9,6 +9,7 @@ INSTALLED_APPS = [
 
 PROJECT_APPS = [
     'apps.core.apps.CoreConfig',
+    'apps.website.apps.WebsiteConfig',
 ]
 
 EXTRA_APPS = [

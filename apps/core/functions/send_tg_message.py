@@ -5,7 +5,7 @@ from requests import get
 from requests.exceptions import ConnectionError, ConnectTimeout
 
 
-@on_exception(expo, (ConnectionError, ConnectTimeout), max_tries=10)
+@on_exception(wait_gen=expo, exception=(ConnectionError, ConnectTimeout), max_tries=10)
 def send_tg_message(title: str, message: str) -> None:
     text = f'{title}\n\n{message}'
 
