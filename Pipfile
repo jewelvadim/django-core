@@ -4,6 +4,7 @@ verify_ssl = true
 name = 'pypi'
 
 [packages]
+backoff = '2.2.1'
 django = '4.1.5'
 django-ckeditor = '6.5.1'
 django-cleanup = '6.0.0'
