@@ -11,6 +11,10 @@ PROJECT_APPS = [
 ]
 
 EXTRA_APPS = [
+    'ckeditor',
+    'django_cleanup',
+    'solo',
+    'sorl.thumbnail',
 ]
 
 INSTALLED_APPS += PROJECT_APPS
