@@ -50,7 +50,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'static'
-STATICFILES_DIRS = [('assets', STATIC_ROOT / 'assets')]
+STATICFILES_DIRS = [('assets', 'assets')]
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
