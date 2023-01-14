@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Host: localhost
+Sitemap: https://localhost/sitemap.xml
