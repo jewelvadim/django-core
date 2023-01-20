@@ -5,6 +5,7 @@ __pycache__/
 *.py[cod]
 
 .ruff_cache
+.mypy_cache
 
 static
 media
