@@ -1,6 +1,6 @@
 from functools import wraps
 from time import perf_counter
-from typing import Any, Callable, Unpack
+from typing import Any, Callable
 
 from django.db import connection, reset_queries
 
@@ -8,7 +8,7 @@ from django.db import connection, reset_queries
 def query_debugger(func: Callable) -> Callable:
 
     @wraps(func)
-    def wrapper(*args: Unpack, **kwargs: Unpack) -> Any:
+    def wrapper(*args, **kwargs) -> Any:
         reset_queries()
 
         start_queries = len(connection.queries)
