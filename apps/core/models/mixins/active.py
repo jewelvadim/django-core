@@ -10,8 +10,7 @@ class ActiveMixin(models.Model):
 		help_text='Вместо удаления элемента, снимите галочку',
 	)
 
-	objects = models.Manager()
-	active_objects = ActiveManager()
+	objects = ActiveManager()
 
 	class Meta:
 		abstract = True
